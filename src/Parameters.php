@@ -5,8 +5,6 @@
  * @author Alexander Pechkarev <alexpechkarev@gmail.com>
  */
 
-use URLify;
-
 class Parameters{
 
 
@@ -121,8 +119,8 @@ class Parameters{
             if( !empty( $val )){
                 #self::$urlParam[] = $useKey
                 $allParam[] = $useKey
-                        ? $key . $join .urlencode(URLify::downcode($val))
-                        : $join .urlencode(URLify::downcode($val));
+                        ? $key . $join .urlencode($val)
+                        : $join .urlencode($val);
             }
         }
 
