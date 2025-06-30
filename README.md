@@ -20,6 +20,7 @@ This package now includes support for the **new Google Maps Routes API**, which 
 
 ## Fork Scope
 This is forked to work with Laravel 8
+- Removed URLIFY support limiting character usage
 
 ## Features
 This package provides easy access to the following Google Maps APIs:

@@ -1,6 +1,6 @@
 {
-    "name": "alexpechkarev/google-maps",
-    "description": "Collection of Google Maps API Web Services for Laravel",
+    "name": "steveturri/google-maps",
+    "description": "Collection of Google Maps API Web Services for Laravel - Forked for Laravel 8 compatibility",
     "keywords": [
         "google maps api",
         "google maps api for laravel",
@@ -18,9 +18,13 @@
     "license": "MIT",
     "authors": [
         {
+            "name": "Steve Turri",
+            "email": "sturri@petermanhvac.com"
+        },
+        {
             "name": "Alexander Pechkarev",
             "email": "alexpechkarev@gmail.com"
-        }
+        }        
     ],
     "minimum-stability": "stable",
     "require": {
